@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{8cdd98a5-e193-4aaf-82dd-eabf6f323ee7}</UniqueIdentifier>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{05ad8c37-4a75-41f3-ac7b-b257def6245f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\gamePlayBackground">
+      <UniqueIdentifier>{5c0b3a95-30f7-4557-99f7-4f2e666c5c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\menu">
+      <UniqueIdentifier>{4f190e5d-d540-4353-861a-6a298df95270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\music">
+      <UniqueIdentifier>{a2b103df-5842-4585-acde-faaf6f999a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\music\sounds">
+      <UniqueIdentifier>{9e76f84d-60ca-43d0-b21b-b01000a42d77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_setup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sprites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ornament.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_setup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sprites.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ornament.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\tinyPartFill.TTF">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+    <Font Include="fonts\tinyReg.TTF">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+    <Font Include="fonts\western.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+    <Font Include="fonts\Minecrafter.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+    <Font Include="fonts\tinyFill.TTF">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\breaking.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\health.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\miner.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\Shop.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\stats.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\tileSet.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\white_Block.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\gamePlayBackground\stars.png">
+      <Filter>Resource Files\images\gamePlayBackground</Filter>
+    </Image>
+    <Image Include="images\gamePlayBackground\topBackground.png">
+      <Filter>Resource Files\images\gamePlayBackground</Filter>
+    </Image>
+    <Image Include="images\gamePlayBackground\Clouds.png">
+      <Filter>Resource Files\images\gamePlayBackground</Filter>
+    </Image>
+    <Image Include="images\menu\menu_clouds.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </Image>
+    <Image Include="images\menu\menu_oilrig.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </Image>
+    <Image Include="images\menu\menu_Options.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </Image>
+    <Image Include="images\menu\menu_Pointer.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </Image>
+    <Image Include="images\menu\menu_Start.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </Image>
+    <Image Include="images\menu\menu_Title.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </Image>
+    <Image Include="images\menu\Cover.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </Image>
+    <Image Include="images\menu\menu_background.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </Image>
+    <Image Include="..\Icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="music\Blood-and-Sand-OST.mp3">
+      <Filter>Resource Files\music</Filter>
+    </Media>
+    <Media Include="music\Blood-and-Sand-OST.wav">
+      <Filter>Resource Files\music</Filter>
+    </Media>
+    <Media Include="music\sounds\death sound.wav">
+      <Filter>Resource Files\music\sounds</Filter>
+    </Media>
+    <Media Include="music\sounds\gunshot.wav">
+      <Filter>Resource Files\music\sounds</Filter>
+    </Media>
+    <Media Include="music\sounds\pickUp.wav">
+      <Filter>Resource Files\music\sounds</Filter>
+    </Media>
+    <Media Include="music\sounds\zombie hurt.wav">
+      <Filter>Resource Files\music\sounds</Filter>
+    </Media>
+    <Media Include="music\sounds\click.wav">
+      <Filter>Resource Files\music\sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="music\Blood-and-Sand-OST.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="music\Blood-and-Sand-OST.flac">
+      <Filter>Resource Files\music</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
